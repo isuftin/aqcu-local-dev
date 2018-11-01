@@ -26,6 +26,7 @@
       env_file:
         - ./docker/configuration/waterauth/config.env
         - ./docker/secrets/common/secrets.env
+        - ./docker/secrets/waterauth/secrets.env
     rserve:
       image: cidasdpdasartip.cr.usgs.gov:8447/aqcu/aqcu-repgen:latest
       container_name: rserve
