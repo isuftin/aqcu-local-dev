@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p webapps
 curl -L -k -o webapps/aqcu-calc.war -X GET "https://cida.usgs.gov/maven/service/local/artifact/maven/redirect?r=cida-public-snapshots&g=gov.usgs.aqcu&a=aqcu-calc&v=LATEST&e=war"
 curl -L -k -o webapps/aqcu-data-retrieval.war -X GET "https://cida.usgs.gov/maven/service/local/artifact/maven/redirect?r=cida-public-snapshots&g=gov.usgs.aqcu&a=aqcu-data-retrieval&v=LATEST&e=war"
